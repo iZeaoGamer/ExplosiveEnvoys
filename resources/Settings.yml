@@ -3,9 +3,9 @@
 explode: false
 explosion-radius: 5
 # The seconds that should pass to explode/disappear
-seconds: 1800
+seconds: 1000
 # The seconds that should pass to spawn a new envoy
-spawnTime: 1000
+spawnTime: 500
 # The amount of envoys that should be spawned
 envoysToSpawn: 3
 # Worlds where the envoys can spawn
