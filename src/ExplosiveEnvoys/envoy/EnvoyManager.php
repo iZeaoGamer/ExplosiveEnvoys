@@ -128,6 +128,7 @@ class EnvoyManager {
                 $this->spawnEnvoy($position);
                 $this->plugin->getServer()->broadcastMessage($this->plugin->getMessage("ENVOY_SPAWNED", [
                     "num" => $i,
+                    "time" => ExplosiveEnvoys::printSeconds($this->timer),
                     "level" => $position->getLevel()->getName(),
                     "x" => $position->getFloorX(),
                     "y" => $position->getFloorY(),
