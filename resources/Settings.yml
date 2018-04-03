@@ -1,26 +1,32 @@
 # If the value is 'true' the envoy will explode,
 # otherwise it'll disappear
-explode: true
+explode: false
 explosion-radius: 5
 # The seconds that should pass to explode/disappear
-seconds: 120
+seconds: 1800
 # The seconds that should pass to spawn a new envoy
-spawnTime: 480
+spawnTime: 1000
 # The amount of envoys that should be spawned
-envoysToSpawn: 2
+envoysToSpawn: 3
 # Worlds where the envoys can spawn
 worlds:
 - world
-- wilderness
+- ender
+- nether
 # The items that can be (randomly) added to the envoy
 # ENCHANTS SUPPORTED - Usage: itemId, amount, enchantId, enchantLevel
 content:
-- "261, 1"
-- "262, 64"
-- "267, 1"
-- "276, 1"
-- "306, 1"
-- "307, 1"
-- "302, 1"
-- "346, 1"
-- "320, 1"
+- "276, 1, 9, 5"
+- "276, 1, 9, 10"
+- "277, 1, 15, 50"
+- "277, 1, 15, 100"
+- "278, 1, 15, 50"
+- "310, 1, 0, 5"
+- "310, 1, 0, 10"
+- "311, 1, 0, 5"
+- "311, 1, 0, 10"
+- "312, 1, 0, 5"
+- "312, 1, 0, 10"
+- "313, 1, 0, 5"
+- "313, 1, 0, 10"
+- "276, 1, 12, 1"
