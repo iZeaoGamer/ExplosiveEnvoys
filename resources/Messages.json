@@ -1,4 +1,4 @@
 {
-  "TIMER_MESSAGE": "§k ||| §r §3The envoy will explode in §f{time} §3seconds §f§k ||| §r ",
-  "ENVOY_SPAWNED": "{num}. §3An envoy was spawned in §f{level} §3in the coords\n§3x: {x} - y: {y} - z: {z}\n"
+  "TIMER_MESSAGE": "§7[§6Void§bFactions§cPE§7] §aThe envoy will vanish / despawn in §2{time} §aseconds.",
+  "ENVOY_SPAWNED": "§7[§6Void§bFactions§cPE§7] §2{num}. §3An envoy was spawned in §f{level} §3in the coords\n§2x: {x} - y: {y} - z: {z}\n§aYou have: §2{time} §aleft until despawn!"
 }
