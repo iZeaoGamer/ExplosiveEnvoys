@@ -11,9 +11,9 @@ namespace ExplosiveEnvoys\envoy;
 
 
 use ExplosiveEnvoys\ExplosiveEnvoys;
-use pocketmine\scheduler\PluginTask;
+use pocketmine\scheduler\Task;
 
-class EnvoyTask extends PluginTask {
+class EnvoyTask extends Task {
     
     /** @var ExplosiveEnvoys */
     protected $owner;
@@ -21,7 +21,7 @@ class EnvoyTask extends PluginTask {
     /**
      * @param int $currentTick
      */
-    public function onRun(int $currentTick) {
+    public function onRun(int $currentTick) : void {
         $manager = $this->owner->getEnvoyManager();
         $manager->update();
         foreach($manager->getEnvoys() as $envoy) {
